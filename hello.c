@@ -1,6 +1,11 @@
-#include<stdio.h>
+/*
+ * this is my first program in c Language
+ */
+#include<stdio.h> // it is header file
+#define p printf
+int a = 18; // Global Declaration
 int main(){
- printf("Hello World!\n");
- printf("Abhishek Chauhan");
+ p("Hello World!\n");
+ p("Abhishek Chauhan");
  return 0;
 }
