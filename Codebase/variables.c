@@ -1,4 +1,4 @@
-#include<stdio.h> 
+#include<stdio.h>
 int mod = 1e9; // Global Variable
 int main(){
     static num1 = 1000; // Static Variabel
@@ -8,4 +8,6 @@ int main(){
     char ch = 'a';
     return 0;
 }
+
+
 
