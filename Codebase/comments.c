@@ -1,4 +1,7 @@
+// Sinle Line Comment
+
 /*
+ MultiLine Comment
 this is basic code of C Language
 \n - It's used for line change
 \t - It's used for containing space
