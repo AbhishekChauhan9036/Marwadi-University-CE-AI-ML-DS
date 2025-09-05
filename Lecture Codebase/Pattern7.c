@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main(){
-    int k = 0;
-    for(int i=1;i<=9;i++){
-        i<=5?k++:k--;
-        for(int j=1;j<=9;j++){
-            if(j>=6-k && j<=4+k){
+    int k=0;
+    for(int i=1;i<=7;i++){
+        i<=4?k++:k--;
+        for(int j=1;j<=7;j++){
+            if(j>=5-k && j<=3+k){
                 printf("*");
             }else{
                 printf(" ");
@@ -12,5 +12,5 @@ int main(){
         }
         printf("\n");
     }
-    return 0; 
+    return 0;
 }
