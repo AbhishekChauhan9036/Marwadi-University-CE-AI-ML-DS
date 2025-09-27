@@ -1,9 +1,9 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char fname[] = {"DONALD is very popular name"};
+    char str[] = {"Marwadi University is best college in Gujarat"};
     char *sub;
-    sub = strstr(fname,"popular");
+    sub = strstr(str,"college");
     printf("%s",sub);
     return 0;
 }
