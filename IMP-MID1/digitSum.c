@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int num = 123,rem=0,sum=0;
-    while(num!=0){
+    while(num>0){
         rem = num%10;
         sum = sum+rem;
         num = num/10;
