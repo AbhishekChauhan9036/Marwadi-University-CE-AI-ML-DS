@@ -25,6 +25,10 @@ void div(){
     printf("%d",a/b);
 }
 
+int maxNum(int a, int b){
+    return a>b?a:b;
+}
+
 
 int main(){
     int result = add(10,15); //Function Call
