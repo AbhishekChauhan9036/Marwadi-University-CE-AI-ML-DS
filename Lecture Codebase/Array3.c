@@ -1,15 +1,11 @@
 #include<stdio.h>
 int main(){
-    int arr[7] = {32, 13 , 67, 3, 112, 89, 90};
-    int brr[7];
-    for(int i=0;i<7;i++){
-        brr[i] = arr[i];
-    }
-
-    for(int i =0;i<7;i++){
-        if(brr[i]%2!=0){
-            printf("%d ",brr[i]);
+    int arr[3][4]={{1,2,3,4},{5,6,7,8},{9,10,11,12}};
+    for(int i=0;i<3;i++){
+        for(int j=0;j<4;j++){
+            printf("%3d ",arr[i][j]);
         }
+        printf("\n");
     }
     return 0;
 }
