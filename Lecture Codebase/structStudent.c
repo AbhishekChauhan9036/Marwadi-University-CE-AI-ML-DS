@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-union Student{
+struct Student{
     char Name[10];
     char Address[50];
     int id;
@@ -10,7 +10,7 @@ union Student{
 };
 
 int main(){
-    union Student s1;
+    struct Student s1;
     strcpy(s1.Name,"Lokeswari");
     strcpy(s1.Address, "Andhra Pradesh");
     s1.id = 8924;
