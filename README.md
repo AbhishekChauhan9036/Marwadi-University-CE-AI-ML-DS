@@ -1,5 +1,5 @@
 # Marwadi University – CE (AI, ML & DS)  
-### Subject: Computer Programming  
+### Subject: Object Oriented Design and Programming  
 
 This repository contains academic resources, notes, assignments, and projects for the **Computer Engineering (Artificial Intelligence, Machine Learning & Data Science)** program at **Marwadi University**.
 
