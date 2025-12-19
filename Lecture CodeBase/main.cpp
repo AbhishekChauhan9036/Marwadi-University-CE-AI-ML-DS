@@ -1,3 +1,7 @@
+/**
+ * Basic C++ Program Structure
+ * This program defines a simple class and demonstrates object creation and method invocation.
+ */
 #include<iostream>
 using namespace std;
 class A{
