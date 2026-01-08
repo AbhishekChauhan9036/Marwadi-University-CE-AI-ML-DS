@@ -16,3 +16,4 @@ dist/
 *.war
 *.iml
 *.pyc
+*.o
